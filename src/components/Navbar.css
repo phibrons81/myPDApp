@@ -1,0 +1,37 @@
+/* src/components/Navbar.css */
+.navbar-vertical {
+    background-color: #333;
+    height: 100vh; /* Full height of the viewport */
+    width: 200px;  /* Breite der Navigationsleiste */
+    position: fixed; /* Fixiert die Leiste am linken Rand */
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 20px;
+  }
+  
+  .nav-links-vertical {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .nav-links-vertical li {
+    display: block;
+    width: 100%;
+  }
+  
+  .nav-links-vertical li a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    width: 100%;
+  }
+  
+  .nav-links-vertical li a:hover {
+    background-color: #aa5a5a;
+  }
+  
